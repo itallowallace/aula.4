@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>tabelas</title>
+</head>
+<body>
+    <h1>TABELAS</h1>
+    <a href="../index.html">aula.html</a>
+
+    <table border="1">
+        <tr bgcolor="orange">
+            <th>linha1, celula1</th>
+            <th>linha1, celula2</th>
+            <th>linha1, celula3</th>
+        </tr>
+        <tr>
+            <th>linha2, celula1</th>
+            <td><a href="../contatos.html">contatos</a></td>
+            <td>linha2, celula3</td>
+        </tr>
+        <tr>
+            <th rowspan="2">linha3, celula1</th>
+            <td>linha3, celula2</td>
+            <td>linha3, delular 3</td>
+        </tr>
+        <tr>
+            <td>linha 4, celulax</td>
+            <td><img src="../icones/hinata.jpg" alt="hinata" width="70px" height="70px"></td>
+
+        </tr>
+    </table>
+</b>
+    <table border="1">
+        <tr>
+            <th rowspan="2">autor</th>
+            <th colspan="3">música</th>
+        </tr>
+        <tr>
+            <th>nome</th>
+            <th>letra</th>
+            <th>cifra</th>
+        </tr>
+
+        <tr>
+            <td rowspan="3">chico buarque</td>
+            <td>a banda</td>
+            <th>x</th>
+            <th>--</th>
+        </tr>
+        <tr>
+            <td>beatriz</td>
+            <th>--</th>
+            <th>x</th>
+        </tr>
+            <td>choro bandido</td>
+            <th>--</th>
+            <th>x</th>
+        </tr>
+
+    </table>
+</body>
+</html>
